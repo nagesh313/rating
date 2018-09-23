@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'rating';
+  submit(event) {
+    console.log(event);
+  }
 }
