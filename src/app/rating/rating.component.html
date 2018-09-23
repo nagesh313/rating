@@ -1,0 +1,14 @@
+<br><br>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <button type="button" class="btn btn-outline-secondary mr-2" placement="bottom" ngbPopover="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
+        popoverTitle="How do you like this App?">
+        Popover on top
+      </button>
+      <ngb-rating [(rate)]="currentRate" (click)="ratingClicked()"></ngb-rating>
+      <hr>
+      <pre>Rate: <b>{{currentRate}}</b></pre>
+    </div>
+  </div>
+</div>
