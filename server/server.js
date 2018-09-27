@@ -8,7 +8,7 @@ app.get('/api/questions/:id', function (req, res) {
 });
 app.post('/api/questions', function (req, res) {
     console.log(req);
-    res.send("success");
+    res.send({});
 });
 app.listen(port);
 console.log('Backend Server started! At http://localhost:' + port);

@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { RatingComponent } from './rating/rating.component';
 import { createCustomElement } from '@angular/elements';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
     RatingComponent
   ],
   imports: [
-    BrowserModule, NgbModule, HttpClientModule
+    BrowserModule, NgbModule, HttpClientModule, FormsModule
   ],
   providers: [],
   entryComponents: [

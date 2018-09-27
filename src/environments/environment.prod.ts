@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  feedbackApi: 'https://app-feedback-service.herokuapp.com'
 };

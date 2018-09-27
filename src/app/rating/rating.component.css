@@ -1,0 +1,27 @@
+.checked {
+    color: orange;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red
+}
+.fa-star-o,.fa-thumbs-o-up,.fa-thumbs-o-down,.fa-smile-o,.fa-meh-o,.fa-frown-o{
+    font-size: 22px;
+}
+.smiley,.like,.star{
+    text-align: center;
+}
+.comments{
+    text-align: center;
+    padding: 0px;
+}
+#comment{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 0px;
+}
+button:disabled{
+    cursor: not-allowed;
+}
